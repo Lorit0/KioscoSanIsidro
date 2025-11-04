@@ -6,6 +6,9 @@
 /*☆☆.｡.:*･ﾟ*:.｡.☆☆.｡.:*･ﾟ*:..｡.☆☆.｡.:*･ﾟ*:.｡.☆☆*☆☆.｡.:*･ﾟ*:.｡.☆☆.｡.:*･ﾟ*:..｡.☆☆.｡.:*･ﾟ*:.｡.☆☆*/
 
 /*☆☆.｡.:*･ﾟ*:.｡.☆☆.｡.:*･ﾟ*:.   Inicio GENERALES  .｡.☆☆.｡.:*･ﾟ*:.｡.☆☆*/
+html {
+    overflow-x: hidden;
+}
 
 * {
     margin: 0;
@@ -364,7 +367,7 @@ button {
 .header-menu-add-to-card {
     height: 100%;
     position: fixed;
-    right: 0;
+    left: 0;
     top: 0px;
     padding: 40px 25px;
     transition: 1s;
@@ -639,7 +642,7 @@ button {
         height: 100%;
         position: absolute;
         top: 0;
-        right: 0;
+        left: 0;
         position: fixed;
     }
     #input-search,

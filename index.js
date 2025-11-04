@@ -398,12 +398,14 @@ const showProductOnCart = btnAddToCart => {
 
 /******************💛💛💛 3-INICIALIZAR EVENTO MOSTRAR CARRITO 💛💛💛***************/
 
-btnOpenCart.onclick = () => {
+btnOpenCart.addEventListener("click", e => {
+    e.preventDefault()
+    e.stopPropagation()
     showOverlay()
     overlay.style.zIndex = "2"
     bodyNoScroll()
     showCart()
-}
+})
 
 btnCloseCart.onclick = () => {
     hiddeOverlay()
